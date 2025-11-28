@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "Controle Filmes API Postman Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Listar todos os filmes",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/v1/controle-filmes/filme"
+      }
+    },
+    {
+      "name": "Buscar filme por ID",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/v1/controle-filmes/filme/1"
+      }
+    },
+    {
+      "name": "Filtrar filmes por nome",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/v1/controle-filmes/filtro/filme?nome=Resgate"
+      }
+    }
+  ]
+}
